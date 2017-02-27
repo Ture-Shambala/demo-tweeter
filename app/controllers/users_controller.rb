@@ -8,26 +8,26 @@ class UsersController < ApplicationController
 		@user = User.new
 	end
 
-	def show
+	# def show
 		
-	end
+	# end
 
-	def create
-		binding.pry
-		@user = User.new
+	# def create
+	# 	binding.pry
+	# 	@user = User.new
 		
-	end
+	# end
 
-	def edit
+	# def edit
 		
-	end
+	# end
 
-	def update
+	# def update
 		
-	end
+	# end
 
-	def destroy
+	# def destroy
 		
-	end
+	# end
 
 end

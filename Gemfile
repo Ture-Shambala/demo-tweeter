@@ -27,6 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # User authentication
 gem 'devise'
 gem 'pry'
+gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails', branch: 'bootstrap3'
+gem "paperclip", "~> 5.0.0"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

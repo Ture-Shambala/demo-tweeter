@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
   # get 'home/index'
 
-  resources :users
+  # resources :users
 
   devise_for :users
 
   get 'users/index'
+  get 'users/new'
  
   root 'users#index'
 
